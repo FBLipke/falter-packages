@@ -13,7 +13,7 @@ define Package/falter-berlin-uplink-notunnel
 	CATEGORY:=falter-berlin
 	TITLE:=Freifunk Berlin no tunnel files
 	URL:=http://github.com/freifunk-berlin/packages_berlin
-	EXTRA_DEPENDS:=kmod-veth
+	DEPENDS:=+kmod-veth
 	PROVIDES:=falter-berlin-uplink
 	PKGARCH:=all
 endef
