@@ -15,8 +15,7 @@ include $(INCLUDE_DIR)/cmake.mk
 define Package/falter-berlin-tunneldigger
   SECTION:=net
   CATEGORY:=Network
-  DEPENDS:=+libnl-tiny
-  EXTRA_DEPENDS:=kmod-l2tp, kmod-l2tp-eth, librt, libpthread
+  DEPENDS:=+libnl-tinyb +kmod-l2tp +kmod-l2tp-eth +librt +libpthread
   TITLE:=L2TPv3 tunnel broker client
   PROVIDES:=tunneldigger
 endef
