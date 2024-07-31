@@ -25,7 +25,7 @@ endef
 define Package/falter-berlin-bbbdigger
   $(call Package/falter-berlin-bbbdigger/default)
   TITLE:=A Tunneldigger (l2tp) based VPN connection to mesh with the Berlin Backbone
-  EXTRA_DEPENDS:=falter-berlin-tunneldigger, olsrd
+  DEPENDS:=+falter-berlin-tunneldigger +olsrd
 endef
 
 define Package/falter-berlin-bbbdigger/description
