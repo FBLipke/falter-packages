@@ -25,7 +25,7 @@ define Package/falter-defaults
 	URL:=https://github.com/freifunk-berlin/falter-packages
 	PKGARCH:=all
 	TITLE:=Falter default configuration
-	EXTRA_DEPENDS:=falter-common
+	DEPENDS:=+falter-common
 endef
 
 define Package/falter-defaults/description
