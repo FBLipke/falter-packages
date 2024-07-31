@@ -13,7 +13,7 @@ define Package/falter-berlin-service-registrar/default
   CATEGORY:=falter-berlin
   URL:=https://github.com/freifunk-berlin/falter-packages
   PKGARCH:=all
-  EXTRA_DEPENDS:=olsrd, olsrd-mod-nameservice, uhttpd, uci
+  DEPENDS:=+olsrd +olsrd-mod-nameservice +uhttpd +uci
 endef
 
 define Package/falter-berlin-service-registrar
