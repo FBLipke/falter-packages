@@ -10,8 +10,7 @@ define Package/ucode-mod-wireguard
   SECTION:=utils
   CATEGORY:=Utilities
   TITLE:=ucode wireguard module
-  DEPENDS:=+libucode +libubox +libnl-tiny
-  EXTRA_DEPENDS:=kmod-wireguard
+  DEPENDS:=+libucode +libubox +libnl-tiny +kmod-wireguard
 endef
 
 define Package/ucode-mod-wireguard/description
