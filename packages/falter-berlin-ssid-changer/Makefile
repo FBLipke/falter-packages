@@ -11,7 +11,7 @@ define Package/falter-berlin-ssid-changer
   TITLE:=Freifunk Berlin SSID Changer
   URL:=https://github.com/freifunk-berlin/falter-packages
   PKGARCH:=all
-  EXTRA_DEPENDS:=pingcheck
+  DEPENDS:=+pingcheck
 endef
 
 define Package/falter-berlin-ssid-changer/description
